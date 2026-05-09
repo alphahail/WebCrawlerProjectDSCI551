@@ -12,7 +12,7 @@ LOCAL_DB to include the password you set up in the installer.
 Add PostgreSQL to the PATH 
 The default is C:\Program Files\PostgreSQL\18\bin, and you will need to change 18 to whichever version of PostgreSQL you are running. 
 
-Additionally, once postgres is installed, run the following two commands
+Additionally, once postgres is installed, run the following two commands from the WebCrawlerProject folder
 psql -U postgres -c "CREATE DATABASE stories;"
 psql -U postgres -d stories -f schema.sql
 This should set up the local database.
