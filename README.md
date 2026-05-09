@@ -29,6 +29,9 @@ Default is 50 threads.
 If you wish to run offline storage and a certain amount of threads, put --offline after the number i.e. python ./WebCrawler/main.py 2 --offline
 To stop the crawler any keyboard interrupt should work
 
+For the data, it is recommeneded to grab at least 50 threads with the crawler for the local database, which can be done with ./WebCrawler/main.py 50 --offline
+This will take a few minutes, but shouldn't be too long.
+
 If you are unable to connect to the Supabase server, please check https://status.supabase.com/
 The servers may be down or some other issue preventing connection may be there. There have been issues as of 5/7/2026 where there appears to be some infrastructure problem with the servers. 
 If this is the case, please try again later when the servers may be back up
